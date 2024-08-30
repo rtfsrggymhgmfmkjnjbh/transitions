@@ -1,0 +1,105 @@
+body{
+    background-color: aqua;
+}
+h1{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding:20px;
+
+}
+.section{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    gap: 160px;
+}
+.img1{
+
+    width:400px;
+    height:300px;
+    padding:20px;
+    transition:6s;
+    transition-duration: 3s;
+    transition-property: all;
+    transition-timing-function: ease-in;
+    border:2px solid black;
+    object-fit: contain;
+}
+.img1:hover{
+    background-color: antiquewhite;
+    width:300px;
+    height:400px;
+    transform:rotate(40deg);
+    background-color: pink;
+}
+.img2{
+    width:400px;
+    height:300px;
+    transition:4s;
+    transition-duration: 3s;
+    transition-property: all;
+    transition-timing-function: ease-in;
+    border:2px solid black;
+    object-fit: contain;
+    padding:20px;
+}
+.img2:hover{
+    background-color: aquamarine;
+    width:200px;
+    height:300px;
+    transform:scale(1.5, 1.5);
+    background-color: aquamarine;
+}
+.p1{
+    display:flex;
+    width:500px;
+    height:50px;
+    transition:6s;
+    transition-duration: 3s;
+    transition-property: all;
+    transition-timing-function: ease-in;
+    border:2px solid black;
+    padding: 20px;
+}
+.p1:hover{
+    transform: skewX(20deg) skewY(20deg);
+    opacity: 0.5;
+}
+.p2{
+    width:500px;
+    height:50px;
+    transition:6s;
+    transition-duration: 3s;
+    transition-property: all;
+    transition-timing-function: ease-in;
+    border:2px solid black;
+    padding:20px;
+}
+.p2:hover{
+    transform: translateX(30px);
+    color:brown;
+}
+#section1{
+    display: flex;
+    gap:10px;
+    margin-top: 30px;
+     margin-left: 75px;
+}
+.footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 60px;  
+    margin-right: 50px; 
+}
+
+
+
+
+
+
+
+
